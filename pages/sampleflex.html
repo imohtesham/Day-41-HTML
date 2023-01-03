@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8">
+       <title> Code pen - demo Flexbox 3  </title>
+       <style>
+        body {padding: 2em;}
+        .headcontainer {
+            display: flex;
+            flex-flow: column wrap;
+            align-content: center;
+            background-color: teal;
+            font-weight: bold;
+            padding: 10px;
+        }
+        .footercontainer {
+            display: flex;
+            flex-flow: column wrap;
+            align-content: center;
+            background-color:green;
+            font-weight: bold;
+            padding: 10px;
+        }
+        .maincontainer {
+            display: flex;
+            flex-flow: row wrap;
+            font-weight: bold;
+            text-align:center;
+        }
+        .maincontentitem{
+            text-align: left;
+            background-color: aquamarine;
+        }
+
+
+        
+
+       </style>
+    </head>
+    <body>
+        <header class ="headercontainer"><h1> HEADER - sample Flexbox Example</h1></header>
+        <div class="maincontainer">
+            <section class="maincontentitem">
+            <article> 
+                <h2>first article</h2>
+                <p>item of side bars </p>
+            </article>
+            </section>
+            <sidebar class="side bar item side bar leftitems">...</sidebar>
+            <sidebar class="side bar item side bar rightitems">...</sidebar>
+        </div>
+        <footer class = "footercontainer">Footer</footer>
+        <script type="text/javascript"></script>
+        </body>
+</html>
